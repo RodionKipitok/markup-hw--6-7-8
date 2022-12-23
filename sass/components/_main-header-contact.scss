@@ -1,0 +1,248 @@
+/* Контакты */
+
+
+// drop-up window properties
+
+
+
+
+.contact-list{
+
+ 
+	
+
+
+ @media screen and (min-width:320px) and (max-width:480px) {
+   display: flex;
+	flex-direction: column-reverse;
+	margin-top: 200px;
+ }
+
+
+ @media screen and (min-width:481px) and (max-width:768px){
+   display: flex;
+	flex-direction: column;
+	padding-bottom: 10px;
+	
+ }
+
+
+ 
+ @media screen and (min-width:769px){
+
+    display: flex;
+	 margin-left: 315px;
+    margin-top: 32px;
+ }
+
+
+ .contact-item__email{
+
+  
+
+	@media screen and (min-width:320px) and (max-width:480px){
+      margin-right: 5px;
+		margin-top: 28px;
+	}
+
+
+
+
+ }
+
+
+
+  .contact-item{
+
+
+	
+
+  @media screen and (min-width:769px){
+
+	
+	display: flex;
+	flex-direction: row-reverse;
+	margin-left: 10px;
+	
+  }
+
+
+
+  	@media screen and (min-width:481px) and (max-width:768px){
+
+		margin-top: 10px;
+	}
+
+}
+
+}
+
+
+
+.contact-link{
+
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #757575;
+
+
+ @media screen and (min-width:481px) and (max-width:768px){
+    
+	font-size: 12px;
+   line-height: 1.16;
+	
+ }
+
+  .contact-link-header__icon-email{
+
+     fill: currentColor;
+
+  }
+
+
+
+  .contact-link-header__icon-telephone{
+
+
+	 fill: currentColor;
+  }
+
+}
+
+.contact-link:hover{
+
+	color: $PrimaryColor;
+}
+
+
+
+.contact-link-telephon--big-size{
+
+	@media screen and (min-width:320px) and (max-width:480px){
+
+		font-size: 34px;
+      line-height: 1.17;
+	}
+	
+}
+
+.contact-link-email--big-size{
+
+	@media screen and (min-width:320px) and (max-width:480px){
+      
+		font-size: 24px;
+      line-height:1.16 ;
+	}
+}
+
+
+
+.social-contact-list{
+    
+ @media screen and (min-width:320px) and (max-width:480px){
+	display: flex;
+	margin-top: 53px;
+ }
+
+
+ @media screen and (min-width:481px) and (max-width:768px){
+
+   margin-left: 96px;
+
+ }
+ 
+
+ .social-contact_item{
+  
+	border-right: 1px solid rgba(33, 33, 33, 0.2);
+   padding-left: 10px;
+	padding-right: 10px;
+
+
+	.social-contact_link{
+
+
+		color: $PrimaryColor;
+
+   @media screen  and (min-width:481px){
+
+		display: none;
+		
+	}
+
+
+
+	}
+
+
+}
+
+
+ .social-contact_item:last-child{
+
+	border-right: none;
+}
+
+.social-contact_item:first-child{
+
+	padding-left: 0;
+}
+
+
+
+}
+
+
+
+	
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+//  /* Иконки контакты header */
+ 
+ 
+
+ .contact-link-header__icon-email{
+	visibility: hidden;
+	
+	@media screen and (min-width:481px){
+		visibility: visible;
+		margin-right: 2px;
+	   // margin-top: 10px;
+		fill:#757575 ;
+	}
+	
+
+
+
+ }
+
+
+
+ .contact-link-header__icon-telephone{
+	
+	
+	visibility: hidden;
+	
+	@media screen and (min-width:481px){
+		visibility: visible;
+	   margin-right: 10px;
+      fill:#757575 ;
+		
+	}
+  
+
+ }
+
+
+
+
